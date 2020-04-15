@@ -3,6 +3,7 @@
 * @nohacks   http://baidu.com
 * @version 1.0 
 */
+
 var Cookie = new class {
     //设置浏览器缓存项值，参数：项名,值,其他参数{expires:"5s",path:"/",domain:"localhost",secure} 或 "5(d,h,m,s,ms)"
     set(key,value,other)
